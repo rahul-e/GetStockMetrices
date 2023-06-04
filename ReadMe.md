@@ -1,3 +1,3 @@
 ## 1. [Stock_i360](./Stock_i360.py): a Python code to scrape data available from MarketWatch (https://www.marketwatch.com/) for stocks specificied by the user in the text file "ticker.txt"
 ## 2. "marketwatchscrape.xlsx": an excel file to which the data is written by [Stock_i360.py](./Stock_i360.py)
-## 3. [Plotstockanalysis](plotstockanalysis.ipynb): a Python notebook which reads data written to "marketwatchscrape.xlsx" and allows the user to plot some of the stock-metrices for a specified a stock. 
+## 3. [Plotstockanalysis](plotstockanalysis.ipynb): a Python notebook which reads data written to "marketwatchscrape.xlsx" and allows the user to plot some of the stock-metrices for a specified a stock. **Note that for the purpose of rendering the pie chart, a negative year-over-year "growth" in stock metrics is treated as ZERO growth.** 
